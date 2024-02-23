@@ -17,6 +17,7 @@ public class LunarcomWakeWordRecognizer : MonoBehaviour
     private bool micPermissionGranted = false;
 
     private string fromLanguage = "en-US";
+    //private string fromLanguage = "ko-KR";
     private LunarcomController lunarcomController;
 
     private void Start()
