@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 16304 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 32469 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR
+C:/Users/yoonh/Documents/GitHub/MedAR/MedAR
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61549
-Successfully changed project path to: C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR
-C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR
+58829
+Successfully changed project path to: C:/Users/yoonh/Documents/GitHub/MedAR/MedAR
+C:/Users/yoonh/Documents/GitHub/MedAR/MedAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,71 +47,69 @@ C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Unable to join player connection multicast group (err: 10013).
-Player connection [58404] Host "[IP] 172.17.128.1 [Port] 0 [Flags] 2 [Guid] 3736540243 [EditorId] 3736540243 [Version] 1048832 [Id] WindowsEditor(7,BossMonsterX44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17356] Host "[IP] 10.104.48.113 [Port] 0 [Flags] 2 [Guid] 1512442298 [EditorId] 1512442298 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P27FL5A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17356] Host "[IP] 10.104.48.113 [Port] 0 [Flags] 2 [Guid] 1512442298 [EditorId] 1512442298 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P27FL5A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 220.37 ms, found 21 plugins.
+Refreshing native plugins compatible for Editor in 127.65 ms, found 21 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR/Assets
+[Subsystems] Discovering subsystems at path C:/Users/yoonh/Documents/GitHub/MedAR/MedAR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(TM) Pro Graphics 5200 (ID=0xd26)
-    Vendor:   Intel
-    VRAM:     2048 MB
-    Driver:   20.19.15.5144
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3114
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.031363 seconds.
-Native extension for UWP target not found
+Registered in 0.004976 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 212.16 ms, found 21 plugins.
+Refreshing native plugins compatible for Editor in 119.54 ms, found 21 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.283 seconds
+- Completed reload, in  0.702 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1283ms)
-		BeginReloadAssembly (223ms)
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (855ms)
-			LoadAssemblies (217ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (160ms)
+			SetupTypeCache (112ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (561ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (212ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (114ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.065400 seconds.
+Registered in 0.015744 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 164.46 ms, found 21 plugins.
+Refreshing native plugins compatible for Editor in 101.38 ms, found 21 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -119,8 +117,8 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\yoonh\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\yoonh\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -128,49 +126,50 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.893 seconds
+- Completed reload, in  1.909 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2894ms)
-		BeginReloadAssembly (249ms)
+	ReloadAssembly (1910ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (2403ms)
-			LoadAssemblies (263ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1648ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (485ms)
+			SetupTypeCache (355ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (1454ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (1076ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (165ms)
-				BeforeProcessingInitializeOnLoad (250ms)
-				ProcessInitializeOnLoadAttributes (857ms)
-				ProcessInitializeOnLoadMethodAttributes (125ms)
-				AfterProcessingInitializeOnLoad (37ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (785ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (53ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 2.49 ms, found 21 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 21 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5515 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 125 unused Assets / (1.2 MB). Loaded Objects now: 5932.
-Memory consumption went from 208.1 MB to 206.9 MB.
-Total: 5.890600 ms (FindLiveObjects: 0.569700 ms CreateObjectMapping: 0.553600 ms MarkObjects: 3.936600 ms  DeleteObjects: 0.829600 ms)
+Memory consumption went from 207.6 MB to 206.4 MB.
+Total: 8.089000 ms (FindLiveObjects: 0.570800 ms CreateObjectMapping: 0.339400 ms MarkObjects: 6.109800 ms  DeleteObjects: 1.067300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -180,1451 +179,661 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4925.554751 seconds.
-  path: Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar
-  artifactKey: Guid(ef6e3e89456f2274f96921f24fd5ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 825132.527282 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar using Guid(ef6e3e89456f2274f96921f24fd5ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9b3cbe7f521cbec8da3ba4fac879ab') in 0.023416 seconds 
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '541f2a4ebddad1c810ee7f67dc4d35a0') in 0.119273 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Version.txt
+  artifactKey: Guid(aa8aed7164ebfc143902f5b0364eaf22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Version.txt using Guid(aa8aed7164ebfc143902f5b0364eaf22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b296be82936ff23fc9554b25fea3c62') in 0.050854 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MRTK.Tutorials.AzureSpeechServices/Prefabs/Lunarcom.prefab
+  artifactKey: Guid(526c157bfa0eee74e8ba738651b3994d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.AzureSpeechServices/Prefabs/Lunarcom.prefab using Guid(526c157bfa0eee74e8ba738651b3994d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78649e767b4ee06685b458eb8d8e7a3a') in 0.073282 seconds 
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK.Tutorials.AzureSpeechServices/Scripts/LunarcomButtonController.cs
+  artifactKey: Guid(d74d5a294108f43f8beb94bd15190979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.AzureSpeechServices/Scripts/LunarcomButtonController.cs using Guid(d74d5a294108f43f8beb94bd15190979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7f63f760f32ca1877997bc92667be12') in 0.017064 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.059022 seconds.
-  path: Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar/CanvasButtonBar.prefab
-  artifactKey: Guid(c2a4036cbd244524d828230f1bf7c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000036 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Cheese.prefab
+  artifactKey: Guid(4d5453f6802c0084b8913398484a9cd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar/CanvasButtonBar.prefab using Guid(c2a4036cbd244524d828230f1bf7c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618e50c734290463fd5656b9251d2117') in 0.272568 seconds 
-Number of asset objects unloaded after import = 361
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Cheese.prefab using Guid(4d5453f6802c0084b8913398484a9cd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13e9434cb0485201ec7899716e486444') in 0.019746 seconds 
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 3.638626 seconds.
-  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog
-  artifactKey: Guid(f4d19d1f0cf0e3c49a59405f367ba012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000040 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Table.prefab
+  artifactKey: Guid(ad8dde9b887f5774d95a09aef04f5f45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog using Guid(f4d19d1f0cf0e3c49a59405f367ba012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feab829c4003f9d384a5f9433ea869c') in 0.012410 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Table.prefab using Guid(ad8dde9b887f5774d95a09aef04f5f45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81c8e2069d2c8b73facee8319af21b4b') in 0.021152 seconds 
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 189.378496 seconds.
-  path: Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar/CanvasButtonBar_Toggles.prefab
-  artifactKey: Guid(a4e268f9a13a98846abcddfeb5d45eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK.Generated/MRTKSettings.asset
+  artifactKey: Guid(3626d75d61dcda44283772eefb5f627c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar/CanvasButtonBar_Toggles.prefab using Guid(a4e268f9a13a98846abcddfeb5d45eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fe4891f7942d07420dd61be79b323f') in 0.088485 seconds 
-Number of asset objects unloaded after import = 710
+Start importing Assets/MRTK.Generated/MRTKSettings.asset using Guid(3626d75d61dcda44283772eefb5f627c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41403a42ad9276a3aa497d6ab9c7d1e4') in 0.027666 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 139.243792 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(adf6cb87dee22ad429739f590c4e5cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Platonic.prefab
+  artifactKey: Guid(1305f83ed5e5baa49be15d0c42494e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes using Guid(adf6cb87dee22ad429739f590c4e5cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9c1ad183cea28a7823e6e2c3b7a0e0') in 0.014841 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.299200 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2007cce4b5d174130deb4bf10ee299f1') in 0.012407 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 23.062294 seconds.
-  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialog.prefab
-  artifactKey: Guid(cca6164bb2744884a92a100266f5f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialog.prefab using Guid(cca6164bb2744884a92a100266f5f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089b1883a1a1835a1bd123a108b92254') in 0.123020 seconds 
-Number of asset objects unloaded after import = 309
-========================================================================
-Received Import Request.
-  Time since last request: 14.296833 seconds.
-  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialogAnimator.controller
-  artifactKey: Guid(4bce70f252a428e47be8ed2f56576fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialogAnimator.controller using Guid(4bce70f252a428e47be8ed2f56576fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebae0f9e6e3f13e9ff074ab1b40b158d') in 0.032315 seconds 
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Platonic.prefab using Guid(1305f83ed5e5baa49be15d0c42494e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6fb6e86d2cffbfead426518391aa9e3') in 0.016313 seconds 
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 3.183324 seconds.
-  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialogDismiss.anim
-  artifactKey: Guid(181bd788c2b6ff24095d3a60f44872d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Scripts/DirectionalIndicatorController.cs
+  artifactKey: Guid(2b53c1c9743b1544d9e3efe805c878e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialogDismiss.anim using Guid(181bd788c2b6ff24095d3a60f44872d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253a9638f17e2946211ab06966fd962c') in 0.024371 seconds 
+Start importing Assets/MRTK.Tutorials.GettingStarted/Scripts/DirectionalIndicatorController.cs using Guid(2b53c1c9743b1544d9e3efe805c878e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6184bd0020ab966506569fc1622b716f') in 0.008941 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48c961527181f1c92a9b115c3b34ca61') in 0.018179 seconds 
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.170327 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.22 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  4.732 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4733ms)
-		BeginReloadAssembly (771ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (116ms)
-		EndReloadAssembly (3164ms)
-			LoadAssemblies (878ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1103ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1257ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (231ms)
-				ProcessInitializeOnLoadAttributes (841ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
-				AfterProcessingInitializeOnLoad (48ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (73ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.96 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.3 MB). Loaded Objects now: 5937.
-Memory consumption went from 202.8 MB to 201.6 MB.
-Total: 8.893400 ms (FindLiveObjects: 0.560800 ms CreateObjectMapping: 0.622900 ms MarkObjects: 6.717900 ms  DeleteObjects: 0.990300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.077366 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.04 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.069 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3070ms)
-		BeginReloadAssembly (318ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2535ms)
-			LoadAssemblies (270ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (858ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (1166ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (228ms)
-				ProcessInitializeOnLoadAttributes (763ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
-				AfterProcessingInitializeOnLoad (40ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (69ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.79 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5941.
-Memory consumption went from 202.7 MB to 201.6 MB.
-Total: 5.639700 ms (FindLiveObjects: 0.579900 ms CreateObjectMapping: 0.494400 ms MarkObjects: 3.723200 ms  DeleteObjects: 0.841000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.073366 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.73 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.586 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2587ms)
-		BeginReloadAssembly (309ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (2080ms)
-			LoadAssemblies (282ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (479ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1114ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (206ms)
-				ProcessInitializeOnLoadAttributes (728ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
-				AfterProcessingInitializeOnLoad (44ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (60ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.54 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.3 MB). Loaded Objects now: 5945.
-Memory consumption went from 202.9 MB to 201.6 MB.
-Total: 7.535800 ms (FindLiveObjects: 0.600100 ms CreateObjectMapping: 0.711500 ms MarkObjects: 5.316500 ms  DeleteObjects: 0.906600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.070281 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.10 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.567 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2568ms)
-		BeginReloadAssembly (332ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (2032ms)
-			LoadAssemblies (298ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (449ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (1141ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (199ms)
-				ProcessInitializeOnLoadAttributes (755ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
-				AfterProcessingInitializeOnLoad (48ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (61ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 11.83 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.3 MB). Loaded Objects now: 5949.
-Memory consumption went from 202.9 MB to 201.6 MB.
-Total: 9.123200 ms (FindLiveObjects: 0.968500 ms CreateObjectMapping: 0.711200 ms MarkObjects: 6.051500 ms  DeleteObjects: 1.390500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.067746 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.016 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3018ms)
-		BeginReloadAssembly (361ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (2399ms)
-			LoadAssemblies (318ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (595ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (1227ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (223ms)
-				ProcessInitializeOnLoadAttributes (799ms)
-				ProcessInitializeOnLoadMethodAttributes (133ms)
-				AfterProcessingInitializeOnLoad (49ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (76ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.28 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5953.
-Memory consumption went from 202.6 MB to 201.4 MB.
-Total: 7.751300 ms (FindLiveObjects: 0.671000 ms CreateObjectMapping: 0.659200 ms MarkObjects: 5.478900 ms  DeleteObjects: 0.941100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.068967 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.83 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.808 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2810ms)
-		BeginReloadAssembly (357ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2234ms)
-			LoadAssemblies (266ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (572ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1191ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (192ms)
-				ProcessInitializeOnLoadAttributes (820ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
-				AfterProcessingInitializeOnLoad (42ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (67ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.33 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5957.
-Memory consumption went from 202.9 MB to 201.7 MB.
-Total: 9.112000 ms (FindLiveObjects: 0.897600 ms CreateObjectMapping: 0.547700 ms MarkObjects: 6.706600 ms  DeleteObjects: 0.958600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.077686 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.16 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.188 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3190ms)
-		BeginReloadAssembly (381ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (2586ms)
-			LoadAssemblies (327ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (626ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (1414ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (284ms)
-				ProcessInitializeOnLoadAttributes (885ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
-				AfterProcessingInitializeOnLoad (51ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (75ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.07 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5961.
-Memory consumption went from 202.9 MB to 201.7 MB.
-Total: 10.659700 ms (FindLiveObjects: 0.895300 ms CreateObjectMapping: 0.648200 ms MarkObjects: 7.298600 ms  DeleteObjects: 1.815900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.074558 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.08 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.052 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3053ms)
-		BeginReloadAssembly (345ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2470ms)
-			LoadAssemblies (295ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (578ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (1346ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (261ms)
-				ProcessInitializeOnLoadAttributes (845ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
-				AfterProcessingInitializeOnLoad (57ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (82ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.44 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5965.
-Memory consumption went from 202.9 MB to 201.7 MB.
-Total: 7.380600 ms (FindLiveObjects: 0.516000 ms CreateObjectMapping: 0.530600 ms MarkObjects: 5.293700 ms  DeleteObjects: 1.039000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.065341 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.928 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2929ms)
-		BeginReloadAssembly (341ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (2367ms)
-			LoadAssemblies (295ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (564ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (1264ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (237ms)
-				ProcessInitializeOnLoadAttributes (817ms)
-				ProcessInitializeOnLoadMethodAttributes (135ms)
-				AfterProcessingInitializeOnLoad (48ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (81ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.04 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5969.
-Memory consumption went from 203.0 MB to 201.7 MB.
-Total: 11.053100 ms (FindLiveObjects: 2.171400 ms CreateObjectMapping: 0.722400 ms MarkObjects: 7.209000 ms  DeleteObjects: 0.948500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.065670 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.90 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.641 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2642ms)
-		BeginReloadAssembly (346ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (2079ms)
-			LoadAssemblies (316ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (1170ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (211ms)
-				ProcessInitializeOnLoadAttributes (760ms)
-				ProcessInitializeOnLoadMethodAttributes (127ms)
-				AfterProcessingInitializeOnLoad (46ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (68ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.84 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.1 MB). Loaded Objects now: 5973.
-Memory consumption went from 202.7 MB to 201.6 MB.
-Total: 6.695600 ms (FindLiveObjects: 0.903500 ms CreateObjectMapping: 0.504500 ms MarkObjects: 4.342600 ms  DeleteObjects: 0.943200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.073251 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.651 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3653ms)
-		BeginReloadAssembly (489ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (2881ms)
-			LoadAssemblies (426ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (715ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (1578ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (297ms)
-				ProcessInitializeOnLoadAttributes (960ms)
-				ProcessInitializeOnLoadMethodAttributes (174ms)
-				AfterProcessingInitializeOnLoad (122ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (73ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.76 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5977.
-Memory consumption went from 203.0 MB to 201.8 MB.
-Total: 13.214300 ms (FindLiveObjects: 0.920500 ms CreateObjectMapping: 1.574300 ms MarkObjects: 8.324000 ms  DeleteObjects: 2.393200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.086632 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.08 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.824 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2825ms)
-		BeginReloadAssembly (377ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2228ms)
-			LoadAssemblies (319ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (533ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (1206ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (237ms)
-				ProcessInitializeOnLoadAttributes (781ms)
-				ProcessInitializeOnLoadMethodAttributes (118ms)
-				AfterProcessingInitializeOnLoad (43ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (60ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.52 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5981.
-Memory consumption went from 203.0 MB to 201.8 MB.
-Total: 10.860500 ms (FindLiveObjects: 0.864600 ms CreateObjectMapping: 0.588500 ms MarkObjects: 7.613300 ms  DeleteObjects: 1.792400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.077404 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.25 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.507 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3508ms)
-		BeginReloadAssembly (360ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (2702ms)
-			LoadAssemblies (353ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (633ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (1446ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (274ms)
-				ProcessInitializeOnLoadAttributes (923ms)
-				ProcessInitializeOnLoadMethodAttributes (168ms)
-				AfterProcessingInitializeOnLoad (51ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (79ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 11.13 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5985.
-Memory consumption went from 203.0 MB to 201.8 MB.
-Total: 10.300800 ms (FindLiveObjects: 1.065200 ms CreateObjectMapping: 0.732900 ms MarkObjects: 7.045500 ms  DeleteObjects: 1.455800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.079400 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.834 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2838ms)
-		BeginReloadAssembly (388ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (2177ms)
-			LoadAssemblies (336ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (562ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (1126ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (202ms)
-				ProcessInitializeOnLoadAttributes (753ms)
-				ProcessInitializeOnLoadMethodAttributes (102ms)
-				AfterProcessingInitializeOnLoad (46ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (63ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.04 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5989.
-Memory consumption went from 203.0 MB to 201.8 MB.
-Total: 6.477300 ms (FindLiveObjects: 0.640300 ms CreateObjectMapping: 0.797200 ms MarkObjects: 4.051100 ms  DeleteObjects: 0.987400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.082396 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.05 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.201 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3203ms)
-		BeginReloadAssembly (434ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (2521ms)
-			LoadAssemblies (373ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (596ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (1343ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (252ms)
-				ProcessInitializeOnLoadAttributes (868ms)
-				ProcessInitializeOnLoadMethodAttributes (136ms)
-				AfterProcessingInitializeOnLoad (57ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (77ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.75 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.3 MB). Loaded Objects now: 5993.
-Memory consumption went from 202.9 MB to 201.6 MB.
-Total: 6.716400 ms (FindLiveObjects: 0.566000 ms CreateObjectMapping: 0.420200 ms MarkObjects: 4.564600 ms  DeleteObjects: 1.164300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.072926 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.28 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.995 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2996ms)
-		BeginReloadAssembly (331ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (2426ms)
-			LoadAssemblies (289ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (543ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (1317ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (254ms)
-				ProcessInitializeOnLoadAttributes (838ms)
-				ProcessInitializeOnLoadMethodAttributes (152ms)
-				AfterProcessingInitializeOnLoad (44ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (75ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.89 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5997.
-Memory consumption went from 203.0 MB to 201.8 MB.
-Total: 13.038800 ms (FindLiveObjects: 1.008000 ms CreateObjectMapping: 1.947300 ms MarkObjects: 8.300100 ms  DeleteObjects: 1.781600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fonts/Pretendard-Bold SDF.asset
+  artifactKey: Guid(5af0cb15febfaa74eac1010135424a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Pretendard-Bold SDF.asset using Guid(5af0cb15febfaa74eac1010135424a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d7af0ed07fdb6639b0af19d452b02f5') in 0.084281 seconds 
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 1944.780699 seconds.
-  path: Assets/Fonts
-  artifactKey: Guid(cad5e5aae00af194d8623f121c3ba901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000042 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Scripts/PlacementHintsController.cs
+  artifactKey: Guid(7654c510b40bc3240aef2f1f919c9de0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Fonts using Guid(cad5e5aae00af194d8623f121c3ba901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3463f3d02fbe377ac3bfbe346e521b') in 0.029673 seconds 
+Start importing Assets/MRTK.Tutorials.GettingStarted/Scripts/PlacementHintsController.cs using Guid(7654c510b40bc3240aef2f1f919c9de0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ecffcb62d6c0513858118a4f4ebc2ddc') in 0.013527 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.373556 seconds.
-  path: Assets/MRTK.Generated
-  artifactKey: Guid(7356546617c307542ba782ae0d51e464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000049 seconds.
+  path: Assets/MRTK.Tutorials.AzureSpeechServices/Scripts/LunarcomSpeechRecognizer.cs
+  artifactKey: Guid(d3985d65531502340bdfef76ff037a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MRTK.Generated using Guid(7356546617c307542ba782ae0d51e464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3d761d317f11a1a07a4a01145b149e') in 0.014727 seconds 
+Start importing Assets/MRTK.Tutorials.AzureSpeechServices/Scripts/LunarcomSpeechRecognizer.cs using Guid(d3985d65531502340bdfef76ff037a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c2a50494376198c81252eaf93adc2e1') in 0.016205 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.069692 seconds.
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
-Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
-
-(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
-
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.06 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
-  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Materials/6.mat
+  artifactKey: Guid(bfc246c5506b90144bf15735519c217c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Materials/6.mat using Guid(bfc246c5506b90144bf15735519c217c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6acaab03fd0cb0eefd55bba8d028732c') in 0.120658 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/Model_PushButton.fbx
+  artifactKey: Guid(5308c0eb5c6ed4647b3797671dc2e5f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/Model_PushButton.fbx using Guid(5308c0eb5c6ed4647b3797671dc2e5f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28f949df81f0a313c3b67bf18ffdc6c4') in 0.061177 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+  artifactKey: Guid(73a79399807f4e8388c2cbb5494681ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt using Guid(73a79399807f4e8388c2cbb5494681ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8dee6263f95454238335395052307f35') in 0.019912 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/XR/Settings/XRSimulationSettings.asset
+  artifactKey: Guid(480dfacdb17b05648a5fdb67aa5958c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Settings/XRSimulationSettings.asset using Guid(480dfacdb17b05648a5fdb67aa5958c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6dae157707a0011e8c146b7d3b95f88') in 0.018660 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset
+  artifactKey: Guid(f788849cb9b8fa248af4d6abff7be1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset using Guid(f788849cb9b8fa248af4d6abff7be1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) ScriptableSingleton UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager already exists. This can happen if there are two copies of the asset or if you query the singleton in a constructor.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:LogError (string,UnityEngine.Object) (at Library/PackageCache/com.unity.xr.core-utils@2.2.3/Runtime/XRLoggingUtils.cs:56)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager>:.ctor () (at Library/PackageCache/com.unity.xr.core-utils@2.2.3/Runtime/ScriptableSettingsBase.cs:174)
+Unity.XR.CoreUtils.Editor.EditorScriptableSettings`1<UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager>:.ctor ()
+UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager:.ctor () (at Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEnvironmentAssetsManager.cs:32)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
 
-Mono: successfully reloaded assembly
-- Completed reload, in  2.987 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2989ms)
-		BeginReloadAssembly (343ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2429ms)
-			LoadAssemblies (284ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (553ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (1318ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (257ms)
-				ProcessInitializeOnLoadAttributes (830ms)
-				ProcessInitializeOnLoadMethodAttributes (150ms)
-				AfterProcessingInitializeOnLoad (54ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (82ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.92 ms, found 21 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 6001.
-Memory consumption went from 203.1 MB to 201.9 MB.
-Total: 12.725900 ms (FindLiveObjects: 1.153300 ms CreateObjectMapping: 1.623600 ms MarkObjects: 8.083200 ms  DeleteObjects: 1.863800 ms)
+(Filename: Library/PackageCache/com.unity.xr.core-utils@2.2.3/Runtime/XRLoggingUtils.cs Line: 56)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+ -> (artifact id: 'e1d274db14ee58490d502d0d392ba94e') in 0.016348 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Rover/RoverModel_PlacementHints_XRay.prefab
+  artifactKey: Guid(9046aa1e5adbe974797ec7cdb48be362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Rover/RoverModel_PlacementHints_XRay.prefab using Guid(9046aa1e5adbe974797ec7cdb48be362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d8ec970be297743c2df74638c2d945b') in 0.061648 seconds 
+Number of asset objects unloaded after import = 518
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9b0032ca71e78eb123293062d8a1b2d') in 0.028413 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SpeechSDK/Plugins/iOS/libMicrosoft.CognitiveServices.Speech.core.a
+  artifactKey: Guid(993dcdfe4e46f0847a3e2f7d4ce969d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/iOS/libMicrosoft.CognitiveServices.Speech.core.a using Guid(993dcdfe4e46f0847a3e2f7d4ce969d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd2b413f3351133b0d918412eb760278') in 0.027752 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SpeechSDK/Plugins/x86/Microsoft.CognitiveServices.Speech.extension.lu.dll
+  artifactKey: Guid(d397ab24736ffc840afcc392a699741e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/x86/Microsoft.CognitiveServices.Speech.extension.lu.dll using Guid(d397ab24736ffc840afcc392a699741e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aeb584a7b0b022eb2c6b939cb6e81b3d') in 0.022926 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Rover/RoverModel_PlacementHints.prefab
+  artifactKey: Guid(a7ce9ce90fc3a62409122863fdf993a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Rover/RoverModel_PlacementHints.prefab using Guid(a7ce9ce90fc3a62409122863fdf993a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60d4c27b5449d88676ecb7366fea61f7') in 0.020939 seconds 
+Number of asset objects unloaded after import = 355
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/XR/Settings/OpenXR Package Settings.asset
+  artifactKey: Guid(379c4e15c1b5899429d0cf45288ab181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(379c4e15c1b5899429d0cf45288ab181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '465ab902623c0346fb19f889743ff6bd') in 0.182154 seconds 
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Textures/10.png
+  artifactKey: Guid(573b894ed1c2fc44ea2541ee5b8a57ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Textures/10.png using Guid(573b894ed1c2fc44ea2541ee5b8a57ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd706ccf5a56c7539706ddc70340acc1c') in 0.046012 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Scripts/PartAssemblyDemo.cs
+  artifactKey: Guid(560a4692a46bbfd459a5011904ec3208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Scripts/PartAssemblyDemo.cs using Guid(560a4692a46bbfd459a5011904ec3208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f4f8997e306a7f5d199a7856cd52221') in 0.013113 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50f5829d2ae37b3717c14b264ebd940f') in 0.019797 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+  artifactKey: Guid(08572ab7713642c8a60789750f0bce5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity using Guid(08572ab7713642c8a60789750f0bce5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a8ab7628a534e409dcaca6b5cd91eab') in 0.011600 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67f42b4de9905e7f3253cb0a230e8b22') in 0.014878 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+  artifactKey: Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity using Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1371e0713ec4c10ac7b5f9729927802b') in 0.011085 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b0a5b2bb9e1a05dcaf2f9d539372b92') in 0.015362 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+  artifactKey: Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity using Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b8f1b09c4735453d2aa31bdd1223b1d') in 0.012938 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97c2f037438aabf2c2d93a3ea75eebf3') in 0.033201 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  artifactKey: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ffd5998b215a5d535dbc2452cb6d206') in 0.013594 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '203c9c57ce134b22438495e7c1b21610') in 0.088979 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/Model_Octa.fbx
+  artifactKey: Guid(1e23ec24c22068b4cbf47737c35e277b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/Model_Octa.fbx using Guid(1e23ec24c22068b4cbf47737c35e277b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a83d5a9ecd60b5565f4f6343a15be0e') in 0.034385 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+  artifactKey: Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity using Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47a32c7e027f562b61a8a8b9e9ff5d4d') in 0.012714 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+  artifactKey: Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity using Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21e48dc9ed1219fbd35969653265d171') in 0.012729 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Materials/7.mat
+  artifactKey: Guid(0393ac2b971eddd4785463e9f09c243c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Materials/7.mat using Guid(0393ac2b971eddd4785463e9f09c243c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2772b57185874ad5a436919e3601b036') in 0.016042 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6c9177014b1135068a29a93ec1f9cdc') in 0.053672 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cec68a4c25577a57dfb8e4496fdf8a9a') in 0.012421 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/RocketLauncher/TheModule.prefab
+  artifactKey: Guid(ddbe0396f9cd39e41b7869a946fc685f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/RocketLauncher/TheModule.prefab using Guid(ddbe0396f9cd39e41b7869a946fc685f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7492d1181fd83fe624151af564a305a9') in 0.023451 seconds 
+Number of asset objects unloaded after import = 196
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '877981a47eb740a008f522cd9fed001b') in 0.017857 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/XR/Loaders/OpenXRLoader.asset
+  artifactKey: Guid(079ce49054d75d640a84365457df8f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Loaders/OpenXRLoader.asset using Guid(079ce49054d75d640a84365457df8f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '972d1cb9d410fd450956a6097c1faf6e') in 0.012324 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+  artifactKey: Guid(9abcd5bd764646568a6ea70d00f9264c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity using Guid(9abcd5bd764646568a6ea70d00f9264c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f69a12a7f1601463a2016fef68c8f970') in 0.015046 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK.Tutorials.AzureSpeechServices/Scripts/LunarcomController.cs
+  artifactKey: Guid(0bf3e71ff76a64ce6a63dc8529f51307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.AzureSpeechServices/Scripts/LunarcomController.cs using Guid(0bf3e71ff76a64ce6a63dc8529f51307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6c3d433285a597a0efdf1046646b2ca') in 0.012213 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Materials/8.mat
+  artifactKey: Guid(bc50df427b3cb4b48931176cb316d8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Materials/8.mat using Guid(bc50df427b3cb4b48931176cb316d8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a1b7d74ad02bb8e97b9577ee2c11bd3') in 0.020022 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+  artifactKey: Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt using Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ed2cc9015ecae0e1fa657f48953edd0') in 0.017592 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '095f326d43a91863572495312506554d') in 0.013893 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe6c96fb977cd2c2e79ba66dd76968fb') in 0.011831 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd46f94d9fcaf687c7dab5fb7b656ecc7') in 0.010419 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbc185dedf1d05577332c38567e41609') in 0.010639 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4968352a6262a7b2a52b1c07dbd157e6') in 0.009538 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b656dec151d9c26e61975b37d9a9d03e') in 0.020141 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46e7b701f2fb2f1b2ed0e39b203e409d') in 0.023810 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+  artifactKey: Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f778695926137c117535216b2333b49') in 0.011127 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SpeechSDK/Plugins/WSA/ARM64/Microsoft.CognitiveServices.Speech.extension.lu.dll
+  artifactKey: Guid(dd54af441907707459071bd3ef281c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/WSA/ARM64/Microsoft.CognitiveServices.Speech.extension.lu.dll using Guid(dd54af441907707459071bd3ef281c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '732f8ac409331c4225a7ffb21df90e55') in 0.012781 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c9eff494f63e93aaab58e9776cc8b40') in 0.009366 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpeechSDK/Plugins/Linux/x64/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+  artifactKey: Guid(a7718a5aa327d014d9d4e7a3bc9eac03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/Linux/x64/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so using Guid(a7718a5aa327d014d9d4e7a3bc9eac03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac8d090bcce3b183358f8f729b2e5f34') in 0.013966 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f9f29afc32b66a586e6ccc8d9d02c34') in 0.018170 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpeechSDK/Plugins/WSA/x64/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+  artifactKey: Guid(e132eb33a9d43844a8b2b4b8cbe5a79a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/WSA/x64/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll using Guid(e132eb33a9d43844a8b2b4b8cbe5a79a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9647b30b64f5e12facd5da8156d55095') in 0.014776 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '967ab98cdffd55ba356d77509d9b3b56') in 0.010681 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69ff83f15350ff10a1533c1266354999') in 0.021165 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b76a00b778c20006b68c4fde04b69e6b') in 0.041406 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'deb0cd6f4815cb94e1b9e68b607abf8f') in 0.029185 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SpeechSDK/Plugins/WSA/ARM64/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+  artifactKey: Guid(922c7d88b7aeb4948a7bbe84a0da7a0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/WSA/ARM64/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll using Guid(922c7d88b7aeb4948a7bbe84a0da7a0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a592d538dd1574c9a536432d00956fc') in 0.016144 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1002bc6b800c194910f238e6060ae907') in 0.009571 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4cf41d6e6e09169ae138e7e5b0a05fc') in 0.022131 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '303fac7903cddfdcaaf8f2beda9e0848') in 0.008866 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fonts/PretendardJP-Regular.otf
+  artifactKey: Guid(0002643d598c487488198f16786f0e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/PretendardJP-Regular.otf using Guid(0002643d598c487488198f16786f0e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e2255b81cdfd31acc4a0f794d99f338') in 0.019881 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Octa.prefab
+  artifactKey: Guid(82b6819e68d45044bb96da358b3e4791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Octa.prefab using Guid(82b6819e68d45044bb96da358b3e4791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22efd4b1b84c9c70a026ed7dd4ad08b1') in 0.014412 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SpeechSDK/Plugins/iOS/Microsoft.CognitiveServices.Speech.csharp.dll
+  artifactKey: Guid(5f2242a48149cac438bf5c69ba032f9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/iOS/Microsoft.CognitiveServices.Speech.csharp.dll using Guid(5f2242a48149cac438bf5c69ba032f9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd367ddd845ae79fc76498dec9248387c') in 0.015713 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Scripts/ExplodeViewController.cs
+  artifactKey: Guid(73a247a9e8a4b51459a854cdff86ac39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Tutorials.GettingStarted/Scripts/ExplodeViewController.cs using Guid(73a247a9e8a4b51459a854cdff86ac39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0815e2f1e77557762a0a5df7dbe11505') in 0.009035 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.057232 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e47a3e0a332d98939a61b22b8cd391e') in 0.015304 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SpeechSDK/Plugins/Android/libs/x86/libMicrosoft.CognitiveServices.Speech.core.so
+  artifactKey: Guid(332059f8356e4cb47bbdfb208caf47c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/Android/libs/x86/libMicrosoft.CognitiveServices.Speech.core.so using Guid(332059f8356e4cb47bbdfb208caf47c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6acf05749d21df06821c4c4999d905c8') in 0.020622 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dda707d4f81eeed97e9832680d64a587') in 0.030874 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e458e2280591eb29ed5f49bb46e7fc00') in 0.045641 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SpeechSDK/Plugins/Android/libs/x86/libMicrosoft.CognitiveServices.Speech.extension.lu.so
+  artifactKey: Guid(7bf96dcb648ea514b80fc30ec0b5f8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/Android/libs/x86/libMicrosoft.CognitiveServices.Speech.extension.lu.so using Guid(7bf96dcb648ea514b80fc30ec0b5f8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ef912b3b55726cccadfa291f55e887d') in 0.021141 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SpeechSDK/Plugins/Android/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.core.so
+  artifactKey: Guid(21ca801d32aef0e48879d1983002c196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SpeechSDK/Plugins/Android/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.core.so using Guid(21ca801d32aef0e48879d1983002c196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af82270a41afda8e5e87020a953f2663') in 0.018239 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1fe12f027c4632ebc4f18e88fdb97f6') in 0.026058 seconds 
+Number of asset objects unloaded after import = 5
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

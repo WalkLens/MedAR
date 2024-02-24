@@ -13,8 +13,8 @@ public class LunarcomButtonController : MonoBehaviour
 
     [Space(6)]
     [Header("Button States")]
-    public Sprite Default;
-    public Sprite Activated;
+    //public Sprite Default;
+    //public Sprite Activated;
 
     private Button button;
     private bool isSelected = false;
@@ -40,7 +40,7 @@ public class LunarcomButtonController : MonoBehaviour
         }
         else
         {
-            button.image.sprite = Activated;
+            //button.image.sprite = Activated;
             isSelected = true;
             lunarcomController.SetActiveButton(GetComponent<LunarcomButtonController>());
 
@@ -56,7 +56,7 @@ public class LunarcomButtonController : MonoBehaviour
 
     public void ShowNotSelected()
     {
-        button.image.sprite = Default;
+        //button.image.sprite = Default;
         isSelected = false;
     }
 
