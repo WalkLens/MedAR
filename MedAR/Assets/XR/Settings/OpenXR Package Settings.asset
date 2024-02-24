@@ -195,7 +195,7 @@ MonoBehaviour:
   - {fileID: -6237433225123904673}
   - {fileID: 4834082224258048406}
   m_renderMode: 1
-  m_depthSubmissionMode: 0
+  m_depthSubmissionMode: 1
 --- !u!114 &-6237433225123904673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
   m_Name: HandTracking WSA
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3cf79659a011bd419c7a2a30eb74e9a, type: 3}
   m_Name: EyeGazeInteraction WSA
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Eye Gaze Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.eyetracking
@@ -534,11 +534,13 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
+  - {fileID: -2648242100058930097}
   - {fileID: -4260600366465107138}
   - {fileID: 7807625670701881590}
   - {fileID: 8104655666069343788}
   - {fileID: -4622997453303669461}
   - {fileID: 2218825932768004393}
+  - {fileID: -5736183141770338313}
   - {fileID: -7426043367183230165}
   - {fileID: 1802241255335590435}
   - {fileID: -1225830647840471547}
@@ -553,11 +555,9 @@ MonoBehaviour:
   - {fileID: 6744813036950055079}
   - {fileID: -8570612273503738724}
   - {fileID: -3721398782748135107}
+  - {fileID: 1103239511938402230}
   - {fileID: -1408027542299508175}
   - {fileID: 5583042444607063742}
-  - {fileID: -5736183141770338313}
-  - {fileID: 1103239511938402230}
-  - {fileID: -2648242100058930097}
   m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &-205518252689914502
@@ -592,10 +592,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0ebc320a151d3408ea1e9fce54d40e, type: 3}
   m_Name: OpenXR Package Settings
   m_EditorClassIdentifier: 
-  Keys: 010000000e000000
+  Keys: 010000000e0000000d000000
   Values:
   - {fileID: -876472222583333248}
   - {fileID: -6242161214565516951}
+  - {fileID: 6816831934907971637}
 --- !u!114 &146234243189907446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,7 +682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f34c86d1a130cc45a438373e1e8a4fc, type: 3}
   m_Name: PlayModeRemotingPlugin Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Holographic Remoting for Play Mode
   version: 1.10.0
   featureIdInternal: com.microsoft.openxr.feature.playmoderemoting
@@ -892,7 +893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a24be4b5ebfe5f4d8ed1de9b25cb7aa, type: 3}
   m_Name: HandCommonPosesInteraction WSA
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Poses
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteractionposes
@@ -940,6 +941,21 @@ MonoBehaviour:
   company: Microsoft
   priority: 0
   required: 0
+--- !u!114 &6816831934907971637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: WebGL
+  m_EditorClassIdentifier: 
+  features: []
+  m_renderMode: 1
+  m_depthSubmissionMode: 0
 --- !u!114 &6991408944766724597
 MonoBehaviour:
   m_ObjectHideFlags: 0

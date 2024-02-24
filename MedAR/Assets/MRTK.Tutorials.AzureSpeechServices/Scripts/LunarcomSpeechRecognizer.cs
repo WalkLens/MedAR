@@ -3,6 +3,7 @@
 
 using UnityEngine;
 using Microsoft.CognitiveServices.Speech;
+using System;
 
 public class LunarcomSpeechRecognizer : MonoBehaviour
 {
@@ -144,7 +145,13 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
             if (recognizedString != string.Empty)
             {
                 lunarcomController.UpdateLunarcomText(recognizedString);
-                lunarcom_Agent.ReturnServerRequest(recognizedString);
+                try
+                {
+                    lunarcom_Agent.ReturnServerRequest(recognizedString);
+                }
+                catch (NullReferenceException ex)
+                {
+                }
             }
         }
     }
