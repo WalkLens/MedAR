@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 6147
+  controlID: 620
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 6027
+  controlID: 595
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 6115
+  controlID: 596
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -429,21 +429,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 34fbffff1a6f00008e6f0000946f00009c6f0000
+      m_ExpandedIDs: 34fbffffc86e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Activate Mic
+        m_OriginalName: Activate Mic
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 28466
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -723,9 +723,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.39659685, y: 1.5183659, z: 2.902098}
+    m_Target: {x: 0.34333113, y: 1.6324244, z: 2.908989}
     speed: 2
-    m_Value: {x: 0.39659685, y: 1.5183659, z: 2.902098}
+    m_Value: {x: 0.34333113, y: 1.6324244, z: 2.908989}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -774,11 +774,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.030305237, y: 0.0005968254, z: -0.0000220175, w: -0.999549}
     speed: 2
-    m_Value: {x: -0.030305235, y: 0.0005968253, z: -0.0000220175, w: -0.9995489}
+    m_Value: {x: -0.03030498, y: 0.0005968203, z: -0.000022017315, w: -0.9995405}
   m_Size:
-    m_Target: 1.0358965
+    m_Target: 1.043726
     speed: 2
-    m_Value: 1.0358965
+    m_Value: 1.043726
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -843,23 +843,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\yoonh\Documents\GitHub\MedAR\MedAR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f6810000
-    m_LastClickedID: 33270
-    m_ExpandedIDs: 00000000da780000dc780000de780000e0780000e278000000ca9a3bffffff7f
+    m_SelectedIDs: 20780000
+    m_LastClickedID: 30752
+    m_ExpandedIDs: 00000000207800002278000024780000267800002878000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -887,7 +887,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da780000dc780000de780000e0780000e278000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000207800002278000024780000267800002878000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -914,7 +914,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000be9e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
