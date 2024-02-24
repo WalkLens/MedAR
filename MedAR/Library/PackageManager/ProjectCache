@@ -266,8 +266,10 @@ m_ResolvedPackages:
   status: 0
   errors: []
   versions:
-    all: []
-    compatible: []
+    all:
+    - 1.10.0
+    compatible:
+    - 1.10.0
     verified: 
   dependencies:
   - name: com.unity.xr.arfoundation
@@ -5022,6 +5024,7 @@ m_ResolvedPackages:
     - 6.0.0-pre.3
     - 6.0.0-pre.4
     - 6.0.0-pre.5
+    - 6.0.0-pre.6
     compatible:
     - 4.2.8
     - 4.2.9
