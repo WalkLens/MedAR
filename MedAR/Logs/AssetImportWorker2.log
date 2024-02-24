@@ -1,0 +1,1630 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61549
+Successfully changed project path to: C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR
+C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10013).
+Player connection [58404] Host "[IP] 172.17.128.1 [Port] 0 [Flags] 2 [Guid] 3736540243 [EditorId] 3736540243 [Version] 1048832 [Id] WindowsEditor(7,BossMonsterX44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 220.37 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ki Young Kim/Documents/GitHub/MedAR/MedAR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(TM) Pro Graphics 5200 (ID=0xd26)
+    Vendor:   Intel
+    VRAM:     2048 MB
+    Driver:   20.19.15.5144
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.031363 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 212.16 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.283 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1283ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (561ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (212ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.065400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 164.46 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.893 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2894ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (2403ms)
+			LoadAssemblies (263ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (1454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (165ms)
+				BeforeProcessingInitializeOnLoad (250ms)
+				ProcessInitializeOnLoadAttributes (857ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5515 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 125 unused Assets / (1.2 MB). Loaded Objects now: 5932.
+Memory consumption went from 208.1 MB to 206.9 MB.
+Total: 5.890600 ms (FindLiveObjects: 0.569700 ms CreateObjectMapping: 0.553600 ms MarkObjects: 3.936600 ms  DeleteObjects: 0.829600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4925.554751 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar
+  artifactKey: Guid(ef6e3e89456f2274f96921f24fd5ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar using Guid(ef6e3e89456f2274f96921f24fd5ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9b3cbe7f521cbec8da3ba4fac879ab') in 0.023416 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.059022 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar/CanvasButtonBar.prefab
+  artifactKey: Guid(c2a4036cbd244524d828230f1bf7c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar/CanvasButtonBar.prefab using Guid(c2a4036cbd244524d828230f1bf7c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618e50c734290463fd5656b9251d2117') in 0.272568 seconds 
+Number of asset objects unloaded after import = 361
+========================================================================
+Received Import Request.
+  Time since last request: 3.638626 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog
+  artifactKey: Guid(f4d19d1f0cf0e3c49a59405f367ba012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog using Guid(f4d19d1f0cf0e3c49a59405f367ba012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feab829c4003f9d384a5f9433ea869c') in 0.012410 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 189.378496 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar/CanvasButtonBar_Toggles.prefab
+  artifactKey: Guid(a4e268f9a13a98846abcddfeb5d45eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/ButtonBar/CanvasButtonBar_Toggles.prefab using Guid(a4e268f9a13a98846abcddfeb5d45eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fe4891f7942d07420dd61be79b323f') in 0.088485 seconds 
+Number of asset objects unloaded after import = 710
+========================================================================
+Received Import Request.
+  Time since last request: 139.243792 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(adf6cb87dee22ad429739f590c4e5cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(adf6cb87dee22ad429739f590c4e5cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9c1ad183cea28a7823e6e2c3b7a0e0') in 0.014841 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.299200 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2007cce4b5d174130deb4bf10ee299f1') in 0.012407 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.062294 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialog.prefab
+  artifactKey: Guid(cca6164bb2744884a92a100266f5f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialog.prefab using Guid(cca6164bb2744884a92a100266f5f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089b1883a1a1835a1bd123a108b92254') in 0.123020 seconds 
+Number of asset objects unloaded after import = 309
+========================================================================
+Received Import Request.
+  Time since last request: 14.296833 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialogAnimator.controller
+  artifactKey: Guid(4bce70f252a428e47be8ed2f56576fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialogAnimator.controller using Guid(4bce70f252a428e47be8ed2f56576fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebae0f9e6e3f13e9ff074ab1b40b158d') in 0.032315 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.183324 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialogDismiss.anim
+  artifactKey: Guid(181bd788c2b6ff24095d3a60f44872d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialogDismiss.anim using Guid(181bd788c2b6ff24095d3a60f44872d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253a9638f17e2946211ab06966fd962c') in 0.024371 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.170327 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4733ms)
+		BeginReloadAssembly (771ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (3164ms)
+			LoadAssemblies (878ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1103ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (231ms)
+				ProcessInitializeOnLoadAttributes (841ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (73ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.96 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.3 MB). Loaded Objects now: 5937.
+Memory consumption went from 202.8 MB to 201.6 MB.
+Total: 8.893400 ms (FindLiveObjects: 0.560800 ms CreateObjectMapping: 0.622900 ms MarkObjects: 6.717900 ms  DeleteObjects: 0.990300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.077366 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.069 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3070ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2535ms)
+			LoadAssemblies (270ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (858ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (228ms)
+				ProcessInitializeOnLoadAttributes (763ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (69ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5941.
+Memory consumption went from 202.7 MB to 201.6 MB.
+Total: 5.639700 ms (FindLiveObjects: 0.579900 ms CreateObjectMapping: 0.494400 ms MarkObjects: 3.723200 ms  DeleteObjects: 0.841000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.073366 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.73 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2587ms)
+		BeginReloadAssembly (309ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (2080ms)
+			LoadAssemblies (282ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1114ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (728ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (60ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.54 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.3 MB). Loaded Objects now: 5945.
+Memory consumption went from 202.9 MB to 201.6 MB.
+Total: 7.535800 ms (FindLiveObjects: 0.600100 ms CreateObjectMapping: 0.711500 ms MarkObjects: 5.316500 ms  DeleteObjects: 0.906600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.070281 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.10 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2568ms)
+		BeginReloadAssembly (332ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2032ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (755ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (61ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.83 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.3 MB). Loaded Objects now: 5949.
+Memory consumption went from 202.9 MB to 201.6 MB.
+Total: 9.123200 ms (FindLiveObjects: 0.968500 ms CreateObjectMapping: 0.711200 ms MarkObjects: 6.051500 ms  DeleteObjects: 1.390500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.067746 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.016 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3018ms)
+		BeginReloadAssembly (361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2399ms)
+			LoadAssemblies (318ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (595ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (223ms)
+				ProcessInitializeOnLoadAttributes (799ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (49ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (76ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.28 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5953.
+Memory consumption went from 202.6 MB to 201.4 MB.
+Total: 7.751300 ms (FindLiveObjects: 0.671000 ms CreateObjectMapping: 0.659200 ms MarkObjects: 5.478900 ms  DeleteObjects: 0.941100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.068967 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00031] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:28 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00070] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 28)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2810ms)
+		BeginReloadAssembly (357ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2234ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (572ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (820ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (42ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (67ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.33 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5957.
+Memory consumption went from 202.9 MB to 201.7 MB.
+Total: 9.112000 ms (FindLiveObjects: 0.897600 ms CreateObjectMapping: 0.547700 ms MarkObjects: 6.706600 ms  DeleteObjects: 0.958600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.077686 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.16 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3190ms)
+		BeginReloadAssembly (381ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2586ms)
+			LoadAssemblies (327ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (626ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (284ms)
+				ProcessInitializeOnLoadAttributes (885ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
+				AfterProcessingInitializeOnLoad (51ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (75ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.07 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5961.
+Memory consumption went from 202.9 MB to 201.7 MB.
+Total: 10.659700 ms (FindLiveObjects: 0.895300 ms CreateObjectMapping: 0.648200 ms MarkObjects: 7.298600 ms  DeleteObjects: 1.815900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.074558 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.08 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3053ms)
+		BeginReloadAssembly (345ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2470ms)
+			LoadAssemblies (295ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (261ms)
+				ProcessInitializeOnLoadAttributes (845ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
+				AfterProcessingInitializeOnLoad (57ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (82ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.44 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5965.
+Memory consumption went from 202.9 MB to 201.7 MB.
+Total: 7.380600 ms (FindLiveObjects: 0.516000 ms CreateObjectMapping: 0.530600 ms MarkObjects: 5.293700 ms  DeleteObjects: 1.039000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.065341 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2929ms)
+		BeginReloadAssembly (341ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2367ms)
+			LoadAssemblies (295ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (817ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (81ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.04 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5969.
+Memory consumption went from 203.0 MB to 201.7 MB.
+Total: 11.053100 ms (FindLiveObjects: 2.171400 ms CreateObjectMapping: 0.722400 ms MarkObjects: 7.209000 ms  DeleteObjects: 0.948500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.065670 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2642ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2079ms)
+			LoadAssemblies (316ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (760ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.84 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.1 MB). Loaded Objects now: 5973.
+Memory consumption went from 202.7 MB to 201.6 MB.
+Total: 6.695600 ms (FindLiveObjects: 0.903500 ms CreateObjectMapping: 0.504500 ms MarkObjects: 4.342600 ms  DeleteObjects: 0.943200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.073251 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3653ms)
+		BeginReloadAssembly (489ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2881ms)
+			LoadAssemblies (426ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (715ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (297ms)
+				ProcessInitializeOnLoadAttributes (960ms)
+				ProcessInitializeOnLoadMethodAttributes (174ms)
+				AfterProcessingInitializeOnLoad (122ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (73ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.76 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5977.
+Memory consumption went from 203.0 MB to 201.8 MB.
+Total: 13.214300 ms (FindLiveObjects: 0.920500 ms CreateObjectMapping: 1.574300 ms MarkObjects: 8.324000 ms  DeleteObjects: 2.393200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.086632 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.08 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.824 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2825ms)
+		BeginReloadAssembly (377ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2228ms)
+			LoadAssemblies (319ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (533ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (781ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (43ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (60ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.52 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5981.
+Memory consumption went from 203.0 MB to 201.8 MB.
+Total: 10.860500 ms (FindLiveObjects: 0.864600 ms CreateObjectMapping: 0.588500 ms MarkObjects: 7.613300 ms  DeleteObjects: 1.792400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.077404 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.507 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3508ms)
+		BeginReloadAssembly (360ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (2702ms)
+			LoadAssemblies (353ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (633ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (274ms)
+				ProcessInitializeOnLoadAttributes (923ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
+				AfterProcessingInitializeOnLoad (51ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (79ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.13 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5985.
+Memory consumption went from 203.0 MB to 201.8 MB.
+Total: 10.300800 ms (FindLiveObjects: 1.065200 ms CreateObjectMapping: 0.732900 ms MarkObjects: 7.045500 ms  DeleteObjects: 1.455800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.079400 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2838ms)
+		BeginReloadAssembly (388ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2177ms)
+			LoadAssemblies (336ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (562ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (202ms)
+				ProcessInitializeOnLoadAttributes (753ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (63ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.04 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5989.
+Memory consumption went from 203.0 MB to 201.8 MB.
+Total: 6.477300 ms (FindLiveObjects: 0.640300 ms CreateObjectMapping: 0.797200 ms MarkObjects: 4.051100 ms  DeleteObjects: 0.987400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.082396 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.05 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3203ms)
+		BeginReloadAssembly (434ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2521ms)
+			LoadAssemblies (373ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (596ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (1343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (252ms)
+				ProcessInitializeOnLoadAttributes (868ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
+				AfterProcessingInitializeOnLoad (57ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (77ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.75 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.3 MB). Loaded Objects now: 5993.
+Memory consumption went from 202.9 MB to 201.6 MB.
+Total: 6.716400 ms (FindLiveObjects: 0.566000 ms CreateObjectMapping: 0.420200 ms MarkObjects: 4.564600 ms  DeleteObjects: 1.164300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.072926 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.28 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2996ms)
+		BeginReloadAssembly (331ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2426ms)
+			LoadAssemblies (289ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (543ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (1317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (838ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (75ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.89 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 5997.
+Memory consumption went from 203.0 MB to 201.8 MB.
+Total: 13.038800 ms (FindLiveObjects: 1.008000 ms CreateObjectMapping: 1.947300 ms MarkObjects: 8.300100 ms  DeleteObjects: 1.781600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1944.780699 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(cad5e5aae00af194d8623f121c3ba901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts using Guid(cad5e5aae00af194d8623f121c3ba901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3463f3d02fbe377ac3bfbe346e521b') in 0.029673 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.373556 seconds.
+  path: Assets/MRTK.Generated
+  artifactKey: Guid(7356546617c307542ba782ae0d51e464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MRTK.Generated using Guid(7356546617c307542ba782ae0d51e464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3d761d317f11a1a07a4a01145b149e') in 0.014727 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.069692 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEditor.XR.Simulation.XREnvironmentViewUtilities' threw an exception.
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4f41070b52224a70bdc90f923c6b37de>:0 
+
+(Filename: Library/PackageCache/com.unity.xr.arfoundation@5.0.5/Editor/Simulation/SimulationEditorUtilities.cs Line: 29)
+
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Simulation.SimulationEditorUtilities.CheckIsSimulationSubsystemEnabled () [0x00043] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\SimulationEditorUtilities.cs:29 
+  at UnityEditor.XR.Simulation.XREnvironmentViewUtilities..cctor () [0x00077] in C:\Users\Ki Young Kim\Documents\GitHub\MedAR\MedAR\Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Editor\Simulation\XREnvironmentViewUtilities.cs:43 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.987 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2989ms)
+		BeginReloadAssembly (343ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2429ms)
+			LoadAssemblies (284ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (553ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (257ms)
+				ProcessInitializeOnLoadAttributes (830ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (54ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (82ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.92 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (1.2 MB). Loaded Objects now: 6001.
+Memory consumption went from 203.1 MB to 201.9 MB.
+Total: 12.725900 ms (FindLiveObjects: 1.153300 ms CreateObjectMapping: 1.623600 ms MarkObjects: 8.083200 ms  DeleteObjects: 1.863800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

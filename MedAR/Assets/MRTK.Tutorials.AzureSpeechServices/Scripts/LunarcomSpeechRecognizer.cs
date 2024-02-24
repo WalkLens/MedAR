@@ -16,6 +16,7 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
     //private string fromLanguage = "en-US";
     private string fromLanguage = "ko-KR";
     private LunarcomController lunarcomController;
+    Lunarcom_Agent lunarcom_Agent;
 
     void Start()
     {
@@ -143,6 +144,7 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
             if (recognizedString != string.Empty)
             {
                 lunarcomController.UpdateLunarcomText(recognizedString);
+                lunarcom_Agent.ReturnServerRequest(recognizedString);
             }
         }
     }

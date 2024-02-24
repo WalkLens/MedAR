@@ -30,6 +30,7 @@ public class LunarcomController : MonoBehaviour
     LunarcomButtonController activeButton = null;
     LunarcomWakeWordRecognizer lunarcomWakeWordRecognizer = null;
     LunarcomOfflineRecognizer lunarcomOfflineRecognizer = null;
+    public Lunarcom_Agent lunarcom_Agent;
 
     private void Awake()
     {
@@ -62,7 +63,8 @@ public class LunarcomController : MonoBehaviour
             {
                 SetupOfflineMode();
             }
-        } else
+        }
+        else
         {
             SetupOnlineMode();
         }
@@ -95,7 +97,7 @@ public class LunarcomController : MonoBehaviour
                 lunarcomWakeWordRecognizer.DismissWord = "*";
             }
         }
-        
+
 
         if (GetComponent<LunarcomTranslationRecognizer>())
         {
@@ -117,7 +119,7 @@ public class LunarcomController : MonoBehaviour
             lunarcomWakeWordRecognizer.WakeWord = "*";
             lunarcomWakeWordRecognizer.DismissWord = "*";
         }
-        
+
         if (GetComponent<LunarcomWakeWordRecognizer>())
         {
             GetComponent<LunarcomWakeWordRecognizer>().enabled = false;
@@ -212,5 +214,10 @@ public class LunarcomController : MonoBehaviour
     public void UpdateLunarcomText(string textToUpdate)
     {
         outputText.text = textToUpdate;
+    }
+
+    public void ReturnButton()
+    {
+        lunarcom_Agent.ReturnServerRequest(outputText.text);
     }
 }
