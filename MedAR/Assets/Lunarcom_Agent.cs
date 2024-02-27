@@ -1,21 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Lunarcom_Agent : Socket_Agent
 {
-    // Start is called before the first frame update
-    void Start()
+    public TextMeshProUGUI returnData;
+   
+    public void ReturnServerRequest(string requestData)
     {
-        string requestData = "Hi from Unity!";
-        string responseData = ServerRequest(requestData);
-
-        Debug.Log(responseData);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        returnData.text = ServerRequest(requestData);
     }
 }

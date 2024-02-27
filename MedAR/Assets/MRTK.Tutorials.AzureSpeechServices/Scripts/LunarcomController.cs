@@ -4,6 +4,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public enum RecognitionMode { Speech_Recognizer, Intent_Recognizer, Tralation_Recognizer, Disabled, Offline };
 public enum SimuilateOfflineMode { Enabled, Disabled };
@@ -20,7 +21,7 @@ public class LunarcomController : MonoBehaviour
     [Header("Object References")]
     public GameObject terminal;
     public ConnectionLightController connectionLight;
-    public Text outputText;
+    public TextMeshProUGUI outputText;
     public List<LunarcomButtonController> buttons;
 
     public delegate void OnSelectRecognitionMode(RecognitionMode selectedMode);
@@ -30,6 +31,7 @@ public class LunarcomController : MonoBehaviour
     LunarcomButtonController activeButton = null;
     LunarcomWakeWordRecognizer lunarcomWakeWordRecognizer = null;
     LunarcomOfflineRecognizer lunarcomOfflineRecognizer = null;
+    public Lunarcom_Agent lunarcom_Agent;
 
     private void Awake()
     {
@@ -62,7 +64,8 @@ public class LunarcomController : MonoBehaviour
             {
                 SetupOfflineMode();
             }
-        } else
+        }
+        else
         {
             SetupOnlineMode();
         }
@@ -95,7 +98,7 @@ public class LunarcomController : MonoBehaviour
                 lunarcomWakeWordRecognizer.DismissWord = "*";
             }
         }
-        
+
 
         if (GetComponent<LunarcomTranslationRecognizer>())
         {
@@ -117,7 +120,7 @@ public class LunarcomController : MonoBehaviour
             lunarcomWakeWordRecognizer.WakeWord = "*";
             lunarcomWakeWordRecognizer.DismissWord = "*";
         }
-        
+
         if (GetComponent<LunarcomWakeWordRecognizer>())
         {
             GetComponent<LunarcomWakeWordRecognizer>().enabled = false;
@@ -212,5 +215,10 @@ public class LunarcomController : MonoBehaviour
     public void UpdateLunarcomText(string textToUpdate)
     {
         outputText.text = textToUpdate;
+    }
+
+    public void ReturnButton()
+    {
+        lunarcom_Agent.ReturnServerRequest(outputText.text);
     }
 }

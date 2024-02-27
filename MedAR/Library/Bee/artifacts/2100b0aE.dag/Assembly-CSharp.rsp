@@ -321,8 +321,10 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"C:/Users/99rac/MedAR/MedAR/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Users/99rac/MedAR/MedAR/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Users/snuh_cmti/Documents/GitHub/MedAR/MedAR/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/snuh_cmti/Documents/GitHub/MedAR/MedAR/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.GraphicsTools.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.GraphicsTools.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.OpenXR.Editor.ref.dll"
@@ -454,6 +456,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/UIManager.cs"
 -langversion:9.0
 
 /deterministic
